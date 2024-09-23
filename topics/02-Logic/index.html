@@ -63,7 +63,7 @@
 							<ul class="nav navbar-nav">
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-										Computational Thinking
+										Logic
 									</a>
 									<ul class="dropdown-menu" role="menu">
 										<li class="dropdown-header">Topics</li>
@@ -74,6 +74,10 @@
 										
 										<li >
 											<a href="../../topics/01-Computational_Thinking/index.html">Computational Thinking</a>
+										</li>
+										
+										<li >
+											<a href="../../topics/02-Logic/index.html">Logic</a>
 										</li>
 										
 									</ul>
@@ -94,19 +98,23 @@
 										<li class="dropdown-header">Resources</li>
 										
 										<li >
-											<a href="#01-Fundamentals_of_Computation">Fundamentals of Computation</a>
+											<a href="#01-Introduction_to_Propositional_Logic">Introduction to Propositional Logic</a>
 										</li>
 										
 										<li >
-											<a href="#09-Selection_of_Python_Tasks">Selection of Python Tasks</a>
+											<a href="#02-Conditionals">Conditionals</a>
 										</li>
 										
 										<li >
-											<a href="#21-Practical_01_-_Loops_and_Decisions">Practical 01 - Loops and Decisions</a>
+											<a href="#03-Quantifiers">Quantifiers</a>
 										</li>
 										
 										<li >
-											<a href="#31-Tutorial_01_-_Loops_and_Decisions">Tutorial 01 - Loops and Decisions</a>
+											<a href="#21-Practical_02_-_Logic_1_-_Truth_Tables">Practical 02 - Logic 1 - Truth Tables</a>
+										</li>
+										
+										<li >
+											<a href="#51-Tutorial_Sheet_02_-_Logic">Tutorial Sheet 02 - Logic</a>
 										</li>
 										
 									</ul>
@@ -142,7 +150,7 @@
 		<!-- topic config -->
 		<div class="panel panel-info">
 			<div class="panel-heading">	
-				<h3 class="panel-title">Computational Thinking</h3>
+				<h3 class="panel-title">Logic</h3>
 			</div>
 			<div class="panel-body" style="color:gray">
 				
@@ -151,7 +159,7 @@
 				        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width:170px">
 							<img class="km" src="topic.png" width="100%" alt="logo for topic"></div>
 				        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-							<span><p>The main aim of this module is to learn to offload hard (and/or boring) computational tasks to computers rather than solving them ourselves. You won't master this skill in a single semester but we will get you started on this path by covering fundamental structures common to mathematics and computing and how we translate between mathematical notation and computing languages (Python).</p></span>
+							<span><p>In this section, on <strong>propositional calculus</strong>, we will discuss how we analyse <strong>statements</strong> and how to construct more complex statements using <strong>logical operators</strong>. This is basis on how computers (and sometimes humans) make decisions.</p></span>
 							<ul>
 								
 							</ul>
@@ -167,70 +175,94 @@
 		<ul class="media-list">
 			
 				<li class="media">
-	<a class="kmaa" id="01-Fundamentals_of_Computation"></a>
+	<a class="kmaa" id="01-Introduction_to_Propositional_Logic"></a>
 	<span class=" fa  fa-book pull-left kmheading" style="font-size:200%"></span>
 	<div class="media-body">
-		<h4 class="media-heading kmheading">Fundamentals of Computation</h4>
-		<span>We will cover the fundamentals of programming using python.</span>
+		<h4 class="media-heading kmheading">Introduction to Propositional Logic</h4>
+		<span></span>
 		<div></div>
 		<ul>
 			
-			<li>Using PyTutor with Colab</li>
+			<li>Propositions and fundamental logical operators (AND, OR and NOT).</li>
 			
-			<li>Python Fundamentals</li>
+			<li>Evaluating logical expression using truth tables.</li>
 			
-			<li>Storing data and data types, Making decisions, Looping, Functions</li>
+			<li>Satisfiability, Tautologies and Contradictions.</li>
 			
 		</ul>
 		<ul class="pager">
 			
-		  	<li><a class="kmpill" href="01-Fundamentals_of_Computation/01-01-Fundamentals_of_Computation-Slides-Handout.pdf" >Handout</a></li>
+		  	<li><a class="kmpill" href="01-Introduction_to_Propositional_Logic/02-01-Introduction_to_Propositional_Logic-Slides-Handout.pdf" >Handout</a></li>
 			
-		  	<li><a class="kmpill" href="01-Fundamentals_of_Computation/01-01-Fundamentals_of_Computation-Slides-Presentation.pdf" >Presentation</a></li>
+		  	<li><a class="kmpill" href="01-Introduction_to_Propositional_Logic/02-01-Introduction_to_Propositional_Logic-Slides-Presentation.pdf" >Presentation</a></li>
 			
 		</ul>
 	</div>
 </li>
 			
 				<li class="media">
-	<a class="kmaa" id="09-Selection_of_Python_Tasks"></a>
+	<a class="kmaa" id="02-Conditionals"></a>
 	<span class=" fa  fa-book pull-left kmheading" style="font-size:200%"></span>
 	<div class="media-body">
-		<h4 class="media-heading kmheading">Selection of Python Tasks</h4>
-		<span>A selection of python tasks to describing the tasks discussed during this module</span>
+		<h4 class="media-heading kmheading">Conditionals</h4>
+		<span></span>
 		<div></div>
 		<ul>
 			
-			<li>Different coding styles &mdash; using a result variable or multiple print statements</li>
+			<li>Conditional and the \textIFTHEN\ operator</li>
 			
-			<li>Different use cases &mdash; code block or functions</li>
+			<li>Bi-conditionals and the \textIFF\ operator</li>
 			
-			<li>Topic specific tasks &mdash; Logic, Sets, Collections, Relations, Functions, Enumeration, &hellip;</li>
+			<li>Converse vs Contrapositive and Necessary vs Sufficient</li>
 			
 		</ul>
 		<ul class="pager">
 			
-		  	<li><a class="kmpill" href="09-Selection_of_Python_Tasks/01-09-Selection_of_Python_Tasks-Slides-Handout.pdf" >Handout</a></li>
+		  	<li><a class="kmpill" href="02-Conditionals/02-02-Conditionals-Slides-Handout.pdf" >Handout</a></li>
 			
-		  	<li><a class="kmpill" href="09-Selection_of_Python_Tasks/01-09-Selection_of_Python_Tasks-Slides-Presentation.pdf" >Presentation</a></li>
+		  	<li><a class="kmpill" href="02-Conditionals/02-02-Conditionals-Slides-Presentation.pdf" >Presentation</a></li>
 			
 		</ul>
 	</div>
 </li>
 			
 				<li class="media">
-	<a class="kmaa" id="21-Practical_01_-_Loops_and_Decisions"></a>
+	<a class="kmaa" id="03-Quantifiers"></a>
+	<span class=" fa  fa-book pull-left kmheading" style="font-size:200%"></span>
+	<div class="media-body">
+		<h4 class="media-heading kmheading">Quantifiers</h4>
+		<span></span>
+		<div></div>
+		<ul>
+			
+			<li>Universal and Existential Quantifiers</li>
+			
+			<li>Quantifiers and Negation</li>
+			
+		</ul>
+		<ul class="pager">
+			
+		  	<li><a class="kmpill" href="03-Quantifiers/02-03-Quantifiers-Slides-Handout.pdf" >Handout</a></li>
+			
+		  	<li><a class="kmpill" href="03-Quantifiers/02-03-Quantifiers-Slides-Presentation.pdf" >Presentation</a></li>
+			
+		</ul>
+	</div>
+</li>
+			
+				<li class="media">
+	<a class="kmaa" id="21-Practical_02_-_Logic_1_-_Truth_Tables"></a>
 	<span class=" fa fa-laptop pull-left kmheading" style="font-size:200%"></span>
 	<div class="media-body">
-		<h4 class="media-heading kmheading">Practical 01 - Loops and Decisions</h4>
-		<span>The aim of this practical is to understand loop and decision statements in Python.</span>
-		<div></div>
+		<h4 class="media-heading kmheading">Practical 02 - Logic 1 - Truth Tables</h4>
+		<span>In our first (proper) practical we look at propositional logic using Python.</span>
+		<div>_(Note: To reopen a notebook that you were working on in an earlier session of Colab, select **Open Empty Notebook in Colab**. Then use menu __File->Open Notebook__ to open your notebook with your saved work.)_</div>
 		<ul>
 			
 		</ul>
 		<ul class="pager">
 			
-		  	<li><a class="kmpill" href="http://colab.research.google.com/github/SETU-DiscreteMathematics/live/blob/main/topics/01-Computational_Thinking/21-Practical_01_-_Loops_and_Decisions/files/Practical_01_-_Loops_and_Decisions.ipynb" >Open in Colab</a></li>
+		  	<li><a class="kmpill" href="http://colab.research.google.com/github/SETU-DiscreteMathematics/live/blob/main/topics/02-Logic/21-Practical_02_-_Logic_1_-_Truth_Tables/files/Practical_02_-_Logic_1_-_Truth_Tables.ipynb" >Open in Colab</a></li>
 			
 		  	<li><a class="kmpill" href="https://colab.research.google.com/#create=true" >Open Empty Notebook in Colab</a></li>
 			
@@ -240,19 +272,21 @@
 	</div>
 </li>
 			
-				<li class="media">
-	<a class="kmaa" id="31-Tutorial_01_-_Loops_and_Decisions"></a>
-	<span class=" glyphicon glyphicon-question-sign pull-left kmheading" style="font-size:200%"></span>
+				
+
+<li class="media">
+	<a class="kmaa" id="51-Tutorial_Sheet_02_-_Logic"></a>
+	<span class=" fa fa-edit pull-left kmheading" style="font-size:200%"></span>
 	<div class="media-body">
-		<h4 class="media-heading kmheading">Tutorial 01 - Loops and Decisions</h4>
-		<span>Review of loops and decisions statements in Python.</span>
+		<h4 class="media-heading kmheading">Tutorial Sheet 02 - Logic</h4>
+		<span>Tutorial sheet for theory questions relating to logic.</span>
 		<div></div>
 		<ul>
 			
 		</ul>
 		<ul class="pager">
 			
-		  	<li><a class="kmpill" href="https://moodle.wit.ie/mod/quiz/view.php?id=4342712" >Open Moodle Quiz</a></li>
+		  	<li><a class="kmpill" href="51-Tutorial_Sheet_02_-_Logic/02-51-Tutorial_Sheet_02_-_Logic.pdf" >Tutorial Sheet 02 - Logic</a></li>
 			
 		</ul>
 	</div>
