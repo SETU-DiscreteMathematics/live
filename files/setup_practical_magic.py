@@ -1,4 +1,4 @@
-__required_version__ = 23.1
+__required_version__ = 25.2
 
 # check if we need to install / update 
 __version__ = 0.0
