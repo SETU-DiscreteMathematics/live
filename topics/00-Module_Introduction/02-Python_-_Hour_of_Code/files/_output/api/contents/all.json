@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-09-03T16:52:40.673588Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-09-03T16:40:34.638764Z",
+      "mimetype": null,
+      "name": "Practical_01_-_Loops_and_Decisions.ipynb",
+      "path": "Practical_01_-_Loops_and_Decisions.ipynb",
+      "size": 11124,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-09-03T16:52:40.674244Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-09-03T16:40:34.639655Z",
+      "mimetype": null,
+      "name": "Practical_06_-_Set_Operations.ipynb",
+      "path": "Practical_06_-_Set_Operations.ipynb",
+      "size": 9694,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2026-09-03T16:52:40.673749Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-09-03T16:52:40.673749Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
