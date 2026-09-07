@@ -1,0 +1,7 @@
+{
+  "@jupyterlab/tour:plugin": {
+    "toursSeen": [
+      "jupyterlab-tour:notebook"
+    ]
+  }
+}

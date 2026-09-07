@@ -472,6 +472,13 @@
         ]
       }
     },
+    "settingsOverrides": {
+      "@jupyterlab/tour:plugin": {
+        "toursSeen": [
+          "jupyterlab-tour:notebook"
+        ]
+      }
+    },
     "versionInfo": {
       "@jupyter-notebook/application": {
         "label": "Jupyter Notebook",
