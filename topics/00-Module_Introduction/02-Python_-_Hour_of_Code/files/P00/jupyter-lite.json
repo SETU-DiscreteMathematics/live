@@ -473,9 +473,21 @@
       }
     },
     "settingsOverrides": {
+      "@jupyterlab/apputils-extension:notification": {
+        "checkForUpdates": false
+      },
+      "@jupyterlab/tour-extension:plugin": {
+        "toursSeen": [
+          "jupyterlab-tour:notebook",
+          "jupyterlab-tour:welcome",
+          "jupyterlab-tour:lab"
+        ]
+      },
       "@jupyterlab/tour:plugin": {
         "toursSeen": [
-          "jupyterlab-tour:notebook"
+          "jupyterlab-tour:notebook",
+          "jupyterlab-tour:welcome",
+          "jupyterlab-tour:lab"
         ]
       }
     },
